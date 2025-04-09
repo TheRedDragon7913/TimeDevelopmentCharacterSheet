@@ -43,52 +43,52 @@ export const GetDefaultSettings = (): BlorboSettings => ({
     {
       negativePole: "just some guy",
       positivePole: "the protagonist of life",
-      amount: null,
+      amount: 0,
     },
     {
       negativePole: "head empty",
       positivePole: "too many thoughts",
-      amount: null,
+      amount: 0,
     },
     {
       negativePole: "awful company",
       positivePole: "ray of sunshine",
-      amount: null,
+      amount: 0,
     },
     {
       negativePole: "hated by all",
       positivePole: "beloved by all",
-      amount: null,
+      amount: 0,
     },
     {
       negativePole: "trauma x1000",
       positivePole: "untouched by history",
-      amount: null,
+      amount: 0,
     },
     {
       negativePole: "sadistic for fun",
       positivePole: "helps others for fun",
-      amount: null,
+      amount: 0,
     },
     {
       negativePole: "stupid as shit",
       positivePole: "scary-smart",
-      amount: null,
+      amount: 0,
     },
     {
       negativePole: "1,000 weapons",
       positivePole: "1,000 tools",
-      amount: null,
+      amount: 0,
     },
     {
       negativePole: "enemy of god",
       positivePole: "at peace with life",
-      amount: null,
+      amount: 0,
     },
     {
       negativePole: "break the rules",
       positivePole: "change the rules",
-      amount: null,
+      amount: 0,
     },
   ],
   evokes: [

@@ -9,6 +9,7 @@ import { Controls } from "./components/controls";
 import { GetRandomSettings } from "./lib/randomizer";
 import { GetDefaultSettings } from "./lib/defaults";
 import { CharacterSheet } from "./components/characterSheet";
+import { Footer } from "./components/footer";
 
 export function App() {
   const [settings, setSettingsInternal] = useState<BlorboSettings>(retrieveSettings());
@@ -33,6 +34,7 @@ export function App() {
         onReset={() => setSettings(GetDefaultSettings())}
       />
 			<CharacterSheet settings={settings} onPatch={patchSettings} />
+			<Footer />
     </div>
   );
 }

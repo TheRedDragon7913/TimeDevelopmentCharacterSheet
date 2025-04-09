@@ -19,9 +19,9 @@ export function Header(props: HeaderProps) {
         <div
           className="header-blorbo-name"
           contentEditable="true"
-          onInput={(e) => props.setName((e.target as any).textContent)}
+          onBlur={(e) => props.setName((e.target as any).textContent)}
+          dangerouslySetInnerHTML={{__html: props.name}}
         >
-          {props.name}
         </div>
       </h1>
     </div>

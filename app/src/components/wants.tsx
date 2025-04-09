@@ -16,7 +16,6 @@ export function Wants(props: WantsProps) {
 
   const eachColumn = Math.ceil(props.wants.length / 2);
   const columns = chunk(props.wants, eachColumn);
-  console.log(eachColumn, columns);
 
   return (
     <div style="margin-top: 16px;">

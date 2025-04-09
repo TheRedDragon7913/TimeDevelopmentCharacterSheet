@@ -21,7 +21,6 @@ export function UploadAvatar(props: UploadAvatarProps) {
           return;
         }
 
-        console.log(reader.result);
         props.onChange(reader.result);
       },
       false

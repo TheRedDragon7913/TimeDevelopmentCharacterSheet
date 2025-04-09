@@ -2,8 +2,9 @@ import { BlorboSettings, CheckboxTrait } from "./blorbo";
 import { GetDefaultSettings } from "./defaults";
 import { GetRandomName } from "./nameRandomizer";
 
-export const GetRandomSettings = (): BlorboSettings => {
+export const GetRandomSettings = (oldSettings: BlorboSettings): BlorboSettings => {
   const settings = GetDefaultSettings();
+  settings.imageDataUrl = oldSettings.imageDataUrl;
 
   settings.name = GetRandomName();
 

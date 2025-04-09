@@ -30,7 +30,7 @@ export function App() {
     <div>
       <Header name={settings.name} setName={(name) => patchSettings({name})} />
       <Controls
-        onRandomize={() => setSettings(GetRandomSettings())}
+        onRandomize={() => setSettings(GetRandomSettings(settings))}
         onReset={() => setSettings(GetDefaultSettings())}
       />
 			<CharacterSheet settings={settings} onPatch={patchSettings} />

@@ -10,8 +10,11 @@
   min-height: 100%;
   min-width: 300px;
   padding: 8px;
+  print-color-adjust: exact;
 }
 
-.upload-avatar input {
-  overflow: hidden;
+@media print {
+  .upload-avatar button {
+    display: none;
+  }
 }

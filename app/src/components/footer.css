@@ -3,3 +3,9 @@
   margin: 16px 0;
   text-align: center;
 }
+
+@media print {
+  .footer {
+    display: none;
+  }
+}

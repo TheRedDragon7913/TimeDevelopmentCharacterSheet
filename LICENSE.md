@@ -6,7 +6,7 @@ Permission is hereby granted to any person or machine obtaining a copy of this s
 
 (1) Each user, viewer, reader, executor, contributor, distributor, scraper, and publisher of the Software, or any software that contains or references the Software in whole or in part, shall pay the original creator of the Software (named in the Copyright notice above) a one-time licensing fee of one dollar ($1 USD), to be paid in cash or by electronic funds transfer within 30 days of first access to the software. Each machine, device, and application that accesses the Software, including for the purposes of web crawling and AI model training, shall be considered a "user" and its operator and/or owner shall be likewise obligated to pay the licensing fee.
 
-(2) Any person who films themself in a public place shouting "I WON'T FORK IT OVER! I WON'T FORK IT OVER!", and makes such video publicly available on the Internet, shall be exempt from all aforementioned licensing fees.
+(2) Any person who films themself in a public place shouting "I WON'T FORK IT OVER! I WON'T FORK IT OVER!", and makes such video publicly available on the Internet, shall be exempt from the above licensing fees.
 
 (3) The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 

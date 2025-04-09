@@ -6,7 +6,7 @@ Dinko
 Doctor
 Father
 Jim
-Madam
+Madame
 Madonna
 Mistress
 President

@@ -1,4 +1,4 @@
-import { useState } from "preact/hooks";
+import "./header.css";
 
 export interface HeaderProps {
   name: string;
@@ -7,14 +7,23 @@ export interface HeaderProps {
 
 export function Header(props: HeaderProps) {
   return (
-    <h1 style="align-items: center; display: flex; flex-direction: row;">
-      <div style="margin-right: 6px;">OMG its</div>
-      <div
-        contentEditable="true"
-        onInput={(e) => props.setName((e.target as any).textContent)}
-      >
-        {props.name}
+    <div>
+      <div className="faded">
+        {"Based on "}
+        <a href="https://www.tumblr.com/mirrorbird/699387005691379712/this-is-genuinely-one-of-the-best-character">
+          https://www.tumblr.com/mirrorbird/699387005691379712/this-is-genuinely-one-of-the-best-character
+        </a>
       </div>
-    </h1>
+      <h1 style="align-items: center; display: flex; flex-direction: row;">
+        <div style="margin-right: 6px;">OMG it's</div>
+        <div
+          className="header-blorbo-name"
+          contentEditable="true"
+          onInput={(e) => props.setName((e.target as any).textContent)}
+        >
+          {props.name}
+        </div>
+      </h1>
+    </div>
   );
 }

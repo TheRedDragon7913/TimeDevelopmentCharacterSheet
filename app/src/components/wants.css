@@ -1,0 +1,13 @@
+.wants-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.want {
+  margin-bottom: 6px;
+}
+
+.want input {
+  margin-right: 12px;
+}

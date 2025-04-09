@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 16px;
+  margin-bottom: 4px;
 }
 
 .trait {
@@ -17,4 +17,15 @@
   flex-direction: row;
   flex-wrap: nowrap;
   margin-left: 4px;
+}
+
+@media screen and (max-width: 800px) {
+  .traits {
+    flex-direction: column;
+    margin: 16px 0;
+  }
+
+  .traits p {
+    margin-top: 8px;
+  }
 }

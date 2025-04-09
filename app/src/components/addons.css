@@ -1,0 +1,12 @@
+.addons {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.addon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4px 0;
+}

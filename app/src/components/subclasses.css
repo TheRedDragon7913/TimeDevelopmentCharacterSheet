@@ -5,10 +5,9 @@
 }
 
 .subclasses-list {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 6px;
   margin-top: 4px;
 }
 
@@ -16,12 +15,11 @@
   border: 2px solid var(--color-lightish);
   color: var(--color-lightish);
   cursor: pointer;
-  margin: 4px;
+  flex: 0 0 33%;
   padding: 4px 4px;
   text-align: center;
   transition: color 200ms, border 200ms;
   user-select: none;
-  width: 27%;
 }
 
 .subclass-selected {
@@ -29,4 +27,10 @@
   color: var(--color-highlight);
   font-style: italic;
   font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .subclasses-list {
+    grid-template-columns: 1fr 1fr;
+  }
 }

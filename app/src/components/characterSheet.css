@@ -1,0 +1,20 @@
+.character-sheet {
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+.character-sheet-intro {
+  margin-bottom: 8px;
+}
+
+/* UTILITY */
+
+.faded {
+  color: #AAA;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.spacer {
+  flex: 1;
+}

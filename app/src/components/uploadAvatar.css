@@ -1,0 +1,17 @@
+.upload-avatar {
+  aspect-ratio: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid var(--color-light);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100%;
+  min-width: 300px;
+  padding: 8px;
+}
+
+.upload-avatar input {
+  overflow: hidden;
+}

@@ -1,0 +1,16 @@
+.controls {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.controls button {
+	margin: 0 6px;
+	padding: 2px 4px;
+}
+
+@media print {
+	.controls {
+		display: none;
+	}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "blorbo",
+  "version": "1.0.0",
+  "description": "A printable blorbo bleebus character sheet builder &amp; randomizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaaclyman/blorbo.git"
+  },
+  "author": "Isaac Lyman",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/isaaclyman/blorbo/issues"
+  },
+  "homepage": "https://github.com/isaaclyman/blorbo#readme"
+}

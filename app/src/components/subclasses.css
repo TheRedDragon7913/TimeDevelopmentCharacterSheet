@@ -1,0 +1,32 @@
+.subclasses-header {
+  align-items: baseline;
+  display: flex;
+  flex-direction: row;
+}
+
+.subclasses-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.subclass {
+  border: 2px solid var(--color-lightish);
+  color: var(--color-lightish);
+  cursor: pointer;
+  margin: 4px;
+  padding: 4px 4px;
+  text-align: center;
+  transition: color 200ms, border 200ms;
+  user-select: none;
+  width: 27%;
+}
+
+.subclass-selected {
+  border: 2px solid var(--color-highlight);
+  color: var(--color-highlight);
+  font-style: italic;
+  font-weight: bold;
+}

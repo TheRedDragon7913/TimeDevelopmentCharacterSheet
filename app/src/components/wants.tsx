@@ -24,12 +24,12 @@ export function Wants(props: WantsProps) {
         (select all that apply)
       </p>
       <div className="wants-columns">
-        {columns.map((col) => (
+        {columns.map((col, colIx) => (
           <div>
             {col.map((want, ix) => (
               <div className="want">
                 <input
-                  id={`want-checkbox-${ix}`}
+                  id={`want-checkbox-${colIx}-${ix}`}
                   type="checkbox"
                   checked={want.selected}
                   onChange={() => selectWant(ix)}

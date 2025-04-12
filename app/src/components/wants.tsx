@@ -34,7 +34,7 @@ export function Wants(props: WantsProps) {
                   checked={want.selected}
                   onChange={() => selectWant(ix)}
                 />
-                <label htmlFor={`want-checkbox-${ix}`}>{want.name}</label>
+                <label htmlFor={`want-checkbox-${colIx}-${ix}`}>{want.name}</label>
               </div>
             ))}
           </div>

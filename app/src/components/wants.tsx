@@ -7,10 +7,10 @@ export interface WantsProps {
 }
 
 export function Wants(props: WantsProps) {
-  const selectWant = (evokeIx: number) => {
+  const selectWant = (want: Want) => {
+    want.selected = !want.selected;
+
     const newWants = props.wants.slice();
-    const selectedWant = newWants[evokeIx];
-    selectedWant.selected = !selectedWant.selected;
     props.onChange(newWants);
   };
 
@@ -32,7 +32,7 @@ export function Wants(props: WantsProps) {
                   id={`want-checkbox-${colIx}-${ix}`}
                   type="checkbox"
                   checked={want.selected}
-                  onChange={() => selectWant(ix)}
+                  onChange={() => selectWant(want)}
                 />
                 <label htmlFor={`want-checkbox-${colIx}-${ix}`}>{want.name}</label>
               </div>

@@ -1,4 +1,4 @@
-Copyright (c) 2025 Isaac Lyman
+Software copyright (c) 2025 Isaac Lyman
 
 THE FORK IT OVER PUBLIC LICENSE
 
@@ -11,3 +11,5 @@ Permission is hereby granted to any person or machine obtaining a copy of this s
 (3) The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 (4) THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Contents of the character sheet (plain text only) are released under a CC0 1.0 deed (https://creativecommons.org/publicdomain/zero/1.0/). The plain text can be used, copied, modified, merged, published, and/or distributed in copy to anyone, by anyone, with the only restriction that those uses are also released under a CC0 1.0 deed. 

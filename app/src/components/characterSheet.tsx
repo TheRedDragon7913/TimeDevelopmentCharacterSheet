@@ -1,11 +1,10 @@
-import { BlorboSettings } from "../lib/blorbo";
+import { BlorboSettings } from "../lib/TimeDevelopmentCharacterSheet";
 import { Addons } from "./addons";
 import "./characterSheet.css";
 import { Evokes } from "./evokes";
 import { SliderTraits } from "./sliderTraits";
 import { Subclasses } from "./subclasses";
 import { Traits } from "./traits";
-import { UploadAvatar } from "./uploadAvatar";
 import { Wants } from "./wants";
 
 export interface CharacterSheetProps {

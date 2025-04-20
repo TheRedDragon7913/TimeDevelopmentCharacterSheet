@@ -1,4 +1,4 @@
-# blorbo
-A printable blorbo bleebus character sheet builder &amp; randomizer
+# title here when i come up with something better than 'here there gone'
+A printable and online-fillable character sheet tracking your character's development over time
 
-Based on https://www.tumblr.com/mirrorbird/699387005691379712/this-is-genuinely-one-of-the-best-character
+source link to tumblr when i finish + post the damn thing...

@@ -1,7 +1,7 @@
 import { BlorboSettings } from "./blorbo";
 
 export const GetDefaultSettings = (): BlorboSettings => ({
-  name: "BLORBO BLEEBUS",
+  name: "Character name here",
   imageDataUrl: null,
   traits: ["Intense", "Fruity", "Complex"].map((name) => ({
     name,

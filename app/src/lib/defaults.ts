@@ -2,142 +2,384 @@ import { BlorboSettings } from "./blorbo";
 
 export const GetDefaultSettings = (): BlorboSettings => ({
   name: "Character name here",
-  imageDataUrl: null,
-  traits: ["Intense", "Fruity", "Complex"].map((name) => ({
-    name,
-    amount: 0,
-  })),
-  subclasses: [
-    "Angst-lord",
-    "Enemy of the State",
-    "Flavor Container",
-    "Himbo",
-    "Soft and Sweet",
-    "Braincell Haver",
-    "This Is a Kink",
-    "Just Like You FR",
-    "Chew Toy",
-    "Friend-Shaped",
-    "Aspirational Character",
-    "Little Meow Meow",
+
+  mindsetOutset:
+    sliders: [
+    {
+      negativePole: "center of the world",
+      positivePole: "my life isn't relevant",
+      amount: 0,
+    },
+    {
+      negativePole: "only see enemies",
+      positivePole: "only see friends",
+      amount: 0,
+    },
+    {
+      negativePole: "overthink everything",
+      positivePole: "impulsive to action",
+      amount: 0,
+    },
+    {
+      negativePole: "unilateral decisions",
+      positivePole: "command me, please",
+      amount: 0,
+    },
+    {
+      negativePole: "can't ask for help",
+      positivePole: "too reliant on others",
+      amount: 0,
+    },
+    {
+      negativePole: "weapon maker",
+      positivePole: "tool maker",
+      amount: 0,
+    },
+    {
+      negativePole: "pessimist spot-finder",
+      positivePole: "optimist upside fan",
+      amount: 0,
+    },
+    {
+      negativePole: "abysmal company",
+      positivePole: "decent to others",
+      amount: 0,
+    },
+    {
+      negativePole: "morality is irrelevant",
+      positivePole: "always in the right",
+      amount: 0,
+    },
+  ], 
+
+  mindsetPresent:
+    sliders: [
+    {
+      negativePole: "center of the world",
+      positivePole: "my life isn't relevant",
+      amount: 0,
+    },
+    {
+      negativePole: "only see enemies",
+      positivePole: "only see friends",
+      amount: 0,
+    },
+    {
+      negativePole: "overthink everything",
+      positivePole: "impulsive to action",
+      amount: 0,
+    },
+    {
+      negativePole: "unilateral decisions",
+      positivePole: "command me, please",
+      amount: 0,
+    },
+    {
+      negativePole: "can't ask for help",
+      positivePole: "too reliant on others",
+      amount: 0,
+    },
+    {
+      negativePole: "weapon maker",
+      positivePole: "tool maker",
+      amount: 0,
+    },
+    {
+      negativePole: "pessimist spot-finder",
+      positivePole: "optimist upside fan",
+      amount: 0,
+    },
+    {
+      negativePole: "abysmal company",
+      positivePole: "decent to others",
+      amount: 0,
+    },
+    {
+      negativePole: "morality is irrelevant",
+      positivePole: "always in the right",
+      amount: 0,
+    },
+  ], 
+
+  mindsetEndgame:
+    sliders: [
+    {
+      negativePole: "center of the world",
+      positivePole: "my life isn't relevant",
+      amount: 0,
+    },
+    {
+      negativePole: "only see enemies",
+      positivePole: "only see friends",
+      amount: 0,
+    },
+    {
+      negativePole: "overthink everything",
+      positivePole: "impulsive to action",
+      amount: 0,
+    },
+    {
+      negativePole: "unilateral decisions",
+      positivePole: "command me, please",
+      amount: 0,
+    },
+    {
+      negativePole: "can't ask for help",
+      positivePole: "too reliant on others",
+      amount: 0,
+    },
+    {
+      negativePole: "weapon maker",
+      positivePole: "tool maker",
+      amount: 0,
+    },
+    {
+      negativePole: "pessimist spot-finder",
+      positivePole: "optimist upside fan",
+      amount: 0,
+    },
+    {
+      negativePole: "abysmal company",
+      positivePole: "decent to others",
+      amount: 0,
+    },
+    {
+      negativePole: "morality is irrelevant",
+      positivePole: "always in the right",
+      amount: 0,
+    },
+  ], 
+
+  circumstanceOutset:
+    sliders: [
+    {
+      negativePole: "generally terrible",
+      positivePole: "generally excellent",
+      amount: 0,
+    },
+    {
+      negativePole: "need for changes",
+      positivePole: "passive tolerance",
+      amount: 0,
+    },
+    {
+      negativePole: "no agency in action",
+      positivePole: "decisions are huge",
+      amount: 0,
+    },
+    {
+      negativePole: "stakes are deadly",
+      positivePole: "mistakes solvable",
+      amount: 0,
+    },
+    {
+      negativePole: "needs go unmet",
+      positivePole: "attended with care",
+      amount: 0,
+    },
+    {
+      negativePole: "regarded poorly",
+      positivePole: "regarded well",
+      amount: 0,
+    },
+    {
+      negativePole: "nothing changes",
+      positivePole: "changes in seconds",
+      amount: 0,
+    },
+  ], 
+
+  circumstancePresent:
+    sliders: [
+    {
+      negativePole: "generally terrible",
+      positivePole: "generally excellent",
+      amount: 0,
+    },
+    {
+      negativePole: "need for changes",
+      positivePole: "passive tolerance",
+      amount: 0,
+    },
+    {
+      negativePole: "no agency in action",
+      positivePole: "decisions are huge",
+      amount: 0,
+    },
+    {
+      negativePole: "stakes are deadly",
+      positivePole: "mistakes solvable",
+      amount: 0,
+    },
+    {
+      negativePole: "needs go unmet",
+      positivePole: "attended with care",
+      amount: 0,
+    },
+    {
+      negativePole: "regarded poorly",
+      positivePole: "regarded well",
+      amount: 0,
+    },
+    {
+      negativePole: "nothing changes",
+      positivePole: "changes in seconds",
+      amount: 0,
+    },
+  ], 
+
+  circumstanceEndgame:
+    sliders: [
+    {
+      negativePole: "generally terrible",
+      positivePole: "generally excellent",
+      amount: 0,
+    },
+    {
+      negativePole: "need for changes",
+      positivePole: "passive tolerance",
+      amount: 0,
+    },
+    {
+      negativePole: "no agency in action",
+      positivePole: "decisions are huge",
+      amount: 0,
+    },
+    {
+      negativePole: "stakes are deadly",
+      positivePole: "mistakes solvable",
+      amount: 0,
+    },
+    {
+      negativePole: "needs go unmet",
+      positivePole: "attended with care",
+      amount: 0,
+    },
+    {
+      negativePole: "regarded poorly",
+      positivePole: "regarded well",
+      amount: 0,
+    },
+    {
+      negativePole: "nothing changes",
+      positivePole: "changes in seconds",
+      amount: 0,
+    },
+  ], 
+  
+  growthChangesPast: [
+    "place",
+    "power",
+    "bonds",
+    "beliefs",
+    "hurts",
+    "hopes",
+    "fears",
+    "goals",
   ].map((name) => ({
     name,
     selected: false,
   })),
-  addons: [
-    "Tragic backstory?",
-    "Orphan?",
-    "Frequently violent?",
-    "Divorced?",
-    "Has enemies?",
-    "No friends?",
-    "Sidekick owner?",
-    "Pets stray animals?",
-    "Chronic insomniac?",
-    "Murderer?",
-  ].map((name) => ({
-    name,
-    selected: false,
-  })),
-  sliders: [
+  
+  growthSlidersPast: [
     {
-      negativePole: "just some guy",
-      positivePole: "the protagonist of life",
+      negativePole: " ",
+      positivePole: "self-awareness",
       amount: 0,
     },
     {
-      negativePole: "head empty",
-      positivePole: "too many thoughts",
+      negativePole: " ",
+      positivePole: "relationships",
       amount: 0,
     },
     {
-      negativePole: "awful company",
-      positivePole: "ray of sunshine",
+      negativePole: " ",
+      positivePole: "knowledge",
       amount: 0,
     },
     {
-      negativePole: "hated by all",
-      positivePole: "beloved by all",
+      negativePole: " ",
+      positivePole: "social standing",
       amount: 0,
     },
     {
-      negativePole: "trauma x1000",
-      positivePole: "untouched by history",
+      negativePole: " ",
+      positivePole: "skills and abilities",
       amount: 0,
     },
     {
-      negativePole: "sadistic for fun",
-      positivePole: "helps others for fun",
+      negativePole: " ",
+      positivePole: "agency in life",
       amount: 0,
     },
     {
-      negativePole: "stupid as shit",
-      positivePole: "scary-smart",
+      negativePole: " ",
+      positivePole: "outlook",
       amount: 0,
     },
     {
-      negativePole: "1,000 weapons",
-      positivePole: "1,000 tools",
-      amount: 0,
-    },
-    {
-      negativePole: "enemy of god",
-      positivePole: "at peace with life",
-      amount: 0,
-    },
-    {
-      negativePole: "break the rules",
-      positivePole: "change the rules",
+      negativePole: " ",
+      positivePole: "goal progress",
       amount: 0,
     },
   ],
-  evokes: [
-    "spontaneous gushing",
-    "powerful violent urges",
-    "raw, unbridled affection",
-    "The Horny",
-    "late-night thoughts",
-    "meta-posting on main",
-    "creative drive",
-    "defensive feelings",
-    "distraction",
-    "delight",
-    "symptoms of projection",
-    "absent-minded doodles on tabletops",
-    "the most godawful hot takes known to mankind",
+
+  growthSlidersFuture: [
+    {
+      negativePole: "self-awareness",
+      positivePole: " ",
+      amount: 0,
+    },
+    {
+      negativePole: "relationships",
+      positivePole: " ",
+      amount: 0,
+    },
+    {
+      negativePole: "knowledge",
+      positivePole: " ",
+      amount: 0,
+    },
+    {
+      negativePole: "social standing",
+      positivePole: " ",
+      amount: 0,
+    },
+    {
+      negativePole: "skills and abilities",
+      positivePole: " ",
+      amount: 0,
+    },
+    {
+      negativePole: "agency in life",
+      positivePole: " ",
+      amount: 0,
+    },
+    {
+      negativePole: "outlook",
+      positivePole: " ",
+      amount: 0,
+    },
+    {
+      negativePole: "goal progress",
+      positivePole: " ",
+      amount: 0,
+    },
+  ],
+
+  growthChangesFuture: [
+    "place",
+    "power",
+    "bonds",
+    "beliefs",
+    "hurts",
+    "hopes",
+    "fears",
+    "goals",
   ].map((name) => ({
     name,
     selected: false,
   })),
-  wantThemToHave: [
-    "a better time",
-    "a worse time",
-    "more trauma",
-    "less trauma",
-    "more romance",
-    "less romance",
-    "different romance",
-    "more friends",
-    "painful isolation",
-    "a family",
-    "catharsis",
-    "revenge",
-    "sympathy",
-    "a better situation",
-    "a worse situation",
-    "more healing",
-    "less healing",
-    "more sex",
-    "less sex",
-    "different sex",
-    "different friends",
-    "freedom",
-    "justification",
-    "The Realization™",
-    "consequences",
-    "a satisfying ending",
-  ].map((name) => ({
-    name,
-    selected: false,
-  })),
+
+  
 });

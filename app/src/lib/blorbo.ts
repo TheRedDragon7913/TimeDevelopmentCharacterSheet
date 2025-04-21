@@ -24,7 +24,7 @@ export interface growthSlidersPast extends SliderTrait {}
 export interface growthSlidersFuture extends SliderTrait {}
 
 
-export interface BlorboSettings {
+export interface CharacterSettings {
   name: string;
 
   mindsetOutset: MindsetOutset[];
